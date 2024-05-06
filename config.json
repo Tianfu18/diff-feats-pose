@@ -1,0 +1,25 @@
+{
+  "root_path": "./dataset/",
+  "LINEMOD":
+    {
+    "local_path": "linemod/LINEMOD",
+    "cad_path": "linemod/models"
+    },
+  "occlusionLINEMOD":
+    {
+     "local_path": "linemod/occlusionLINEMOD",
+     "cad_path": "linemod/models"
+    },
+  "TLESS":
+   {
+    "local_path": "tless",
+    "cad_path": "tless/models"
+   },
+  "SUN397":
+  {
+    "local_path": "SUN397/"
+  },
+  "gpu": "0,1",
+  "disable_output_blender": false,
+  "num_workers": 10
+}

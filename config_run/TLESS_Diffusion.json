@@ -1,0 +1,42 @@
+{
+  "model": {
+    "backbone": "diffusion",
+    "timestep": 0,
+    "diffusion_id": "runwayml/stable-diffusion-v1-5",
+    "descriptor_size": 16,
+    "output_resolution": 64,
+    "loss": "InfoNCE",
+    "regression_loss": false
+  },
+  "train": {
+    "batch_size": 16,
+    "optimizer": {
+      "lr": 1e-4,
+      "weight_decay": 5e-4
+    },
+    "scheduler": {
+      "gamma": 0.2,
+      "milestones": [
+        20,
+        50,
+        80,
+        100
+      ],
+      "update_range": "epoch"
+    },
+    "epochs": 20,
+    "num_workers": 10
+  },
+  "log": {
+    "log_interval": 10,
+    "weights": "results/weights"
+  },
+  "dataset": {
+    "image_size": 512,
+    "mask_size": 32,
+    "use_augmentation": true,
+    "use_gt_mask": false,
+    "sample_path": "results/samples"
+  },
+  "save_prediction_path": "results/prediction"
+}
