@@ -131,4 +131,4 @@ If you find our project helpful for your research, please cite:
 ```
 
 ## Acknowledgement
-This codebase is built based on the [template-pose](https://github.com/ashawkey/stable-dreamfusion). Thanks!
+This codebase is built based on the [template-pose](https://github.com/nv-nguyen/template-pose). Thanks!
