@@ -55,7 +55,7 @@ conda activate diff-feats
 ```
 
 ### 1. Download datasets:
-Download with following gdrive links and unzip them in ./dataset. We use the same data as [template-pose]([https://github.com/ashawkey/stable-dreamfusion](https://github.com/nv-nguyen/template-pose)).
+Download with following gdrive links and unzip them in ./dataset. We use the same data as [template-pose](https://github.com/nv-nguyen/template-pose).
 - [LINEMOD and Occlusion-LINEMOD (3GB)](https://drive.google.com/file/d/1XkQBt01nlfCbFuBsPMfSHlcNIzShn7e7/view?usp=sharing)
 - [T-LESS (11GB)](https://drive.google.com/file/d/1d2GoswrnvcTlwFi_LWoCiy1uS5OkCiF1/view?usp=sharing)
 - [SUN397, randomized background for training on T-LESS (37GB)](vision.princeton.edu/projects/2010/SUN/SUN397.tar.gz)
